@@ -22,8 +22,10 @@ export default class App extends Component<Props> {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>Welcome to React Native!</Text>
-        <Text style={styles.instructions}>This is A Test App</Text>
-        <Text style={styles.instructions}>This is A Test App</Text>
+        <Text style={styles.welcome}>3 times for important message!</Text>
+        <Text style={styles.instructions}>This is Another Test App</Text>
+        <Text style={styles.instructions}>This is Another Test App</Text>
+        <Text style={styles.instructions}>This is Another Test App</Text>
       </View>
     );
   }
@@ -34,16 +36,17 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: '#f48942',
   },
   welcome: {
     fontSize: 20,
     textAlign: 'center',
+    color: '#ffffff',
     margin: 10,
   },
   instructions: {
     textAlign: 'center',
-    color: '#333333',
+    color: '#ffffff',
     marginBottom: 5,
   },
 });
